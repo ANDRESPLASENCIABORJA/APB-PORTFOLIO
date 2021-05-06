@@ -1,0 +1,81 @@
+header {
+    background-image: url("../images/star.png");
+}
+
+.text-centered-one {
+    text-align: center;
+    padding-top: 140px;
+    color: #DBE8E1;
+}
+
+.text-centered {
+    text-align: center;
+    color: #DBE8E1;
+    margin-bottom: 15px;
+}
+
+.button.large {
+margin-top: 50px;
+margin-left: 40%;
+border-radius: 10px;
+background-color: #034687;
+}
+
+.button.large:hover {
+    color: #E10032;
+}
+
+span {
+    color: #E10032;
+}
+
+nav {
+    margin-top: 150px;
+}
+
+ul {
+    background-color: #151B25;
+    margin: 0rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid #034687 5px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 30px;
+    color:#DBE8E1 ;
+}
+
+a:hover {
+    color: #E10032;
+}
+
+.picture {
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-left: 42.5%;
+}
+
+p {
+    text-align: center;
+}
+
+.blue-text {
+    color: #034687;
+}
+
+.progress {
+    width: 750px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
