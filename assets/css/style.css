@@ -1,7 +1,8 @@
+/*Background image for the header*/
 header {
     background-image: url("../images/star.png");
 }
-
+/*Design for the headers of the header section*/
 .text-centered-one {
     text-align: center;
     padding-top: 140px;
@@ -13,7 +14,7 @@ header {
     color: #DBE8E1;
     margin-bottom: 15px;
 }
-
+/*Design attributes for the button on the header section*/
 .button.large {
 margin-top: 50px;
 margin-left: 40%;
@@ -24,15 +25,15 @@ background-color: #034687;
 .button.large:hover {
     color: #E10032;
 }
-
+/*Global design for the span labels*/
 span {
     color: #E10032;
 }
-
+/*Margin for the nav section*/
 nav {
     margin-top: 150px;
 }
-
+/*Global style for the ul located on the header an on the footer of the webpage*/
 ul {
     background-color: #151B25;
     margin: 0rem;
@@ -40,11 +41,11 @@ ul {
     padding-bottom: 15px;
     border-bottom: solid #034687 5px;
 }
-
+/*Global style for the li elements of the ul*/
 li {
     display: inline;
 }
-
+/*Global style attributes for the links inside the html*/
 a {
     padding: 30px;
     color:#DBE8E1 ;
@@ -53,29 +54,115 @@ a {
 a:hover {
     color: #E10032;
 }
-
+/*Style attributes for my picture*/
 .picture {
     width: 250px;
     margin-left: 40%;
     margin-top: 50px;
     border-radius: 50%;
 }
-
+/*Attributes for the h2*/
 h2 {
     margin-left: 42.5%;
 }
-
+/*Global attributes for all the p tags on the webpage*/
 p {
     text-align: center;
 }
-
+/*Attributes for the span .blue-text of the first main section*/
 .blue-text {
     color: #034687;
 }
-
+/*Attributes for the progress bars*/
 .progress {
     width: 750px;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 50px;
 }
+
+.about-section {
+    border-bottom: solid #034687 5px;
+}
+/*Design attributes for the main 2 section*/
+.portfolio-section {
+    background-color: #151B25;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: solid #034687 5px;
+}
+/*Design attributes for all the divs inside the main 2 section*/
+.trade-analyst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Design attributes for the images inside the divs in the main section 2*/
+.trading-img {
+    width: 500px;
+    border-radius: 10%;
+}
+
+.trading-img:hover {
+    border: solid transparent;
+}
+
+
+.pg-img {
+    width: 500px;
+    border-radius: 10%;
+}
+
+.pg-img:hover {
+    border: solid transparent;
+}
+
+.weather-img {
+    width: 500px;
+    border-radius: 10%;
+}
+
+.weather-img:hover {
+    border: solid transparent;
+}
+/*Global attributes for all the h3 tags*/
+h3 {
+    color: #034687;
+}
+/*Design attributes for the p tags on the main section 2*/
+.text-line {
+    width: 450px;
+    color: #DBE8E1;
+}
+/*Design attributes for the contact form*/
+footer ul li {
+    color: #DBE8E1;
+    margin-right: 50px;
+}
+
+footer ul li:hover {
+    color: #E10032;
+}
+
+
+
+
+
+
+
+
 
