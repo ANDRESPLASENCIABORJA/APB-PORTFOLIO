@@ -1,201 +1,268 @@
 /*Background image for the header*/
 header {
-    background-image: url("../images/star.png");
+  background-image: url("../images/star.png");
 }
+
 /*Design for the headers of the header section*/
 .text-centered-one {
-    text-align: center;
-    padding-top: 140px;
-    color: #DBE8E1;
+  text-align: center;
+  padding-top: 140px;
+  color: #dbe8e1;
 }
 
 .text-centered {
-    text-align: center;
-    color: #DBE8E1;
-    margin-bottom: 15px;
-}
-/*Design attributes for the button on the header section*/
-.button.large {
-margin-top: 50px;
-margin-left: 40%;
-border-radius: 10px;
-background-color: #034687;
+  text-align: center;
+  color: #dbe8e1;
+  margin-bottom: 15px;
 }
 
-.button.large:hover {
-    color: #E10032;
+/*Design attributes for the button on the header section*/
+.button {
+  margin-top: 50px;
+  margin-left: 40%;
+  border-radius: 10px;
+  background-color: #034687;
 }
+
+.button:hover {
+  color: #e10032;
+}
+
 /*Global design for the span labels*/
 span {
-    color: #E10032;
+  color: #e10032;
 }
+
 /*Margin for the nav section*/
 nav {
-    margin-top: 150px;
+  margin-top: 150px;
 }
+
 /*Global style for the ul located on the header an on the footer of the webpage*/
 ul {
-    background-color: #151B25;
-    margin: 0rem;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: solid #034687 5px;
+  background-color: #151b25;
+  margin: 0rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid #034687 5px;
 }
+
 /*Global style for the li elements of the ul*/
 li {
-    display: inline;
+  display: inline;
 }
+
 /*Global style attributes for the links inside the html*/
 a {
-    padding: 30px;
-    color:#DBE8E1 ;
+  padding: 30px;
+  color: #dbe8e1;
 }
 
 a:hover {
-    color: #E10032;
+  color: #e10032;
 }
+
 /*Style attributes for my picture*/
 .picture {
-    width: 250px;
-    margin-left: 40%;
-    margin-top: 50px;
-    border-radius: 50%;
+  width: 250px;
+  margin-left: 40%;
+  margin-top: 50px;
+  border-radius: 50%;
 }
+
 /*Attributes for the h2*/
 h2 {
-    margin-left: 42.5%;
+  margin-left: 42.5%;
+  color: #034687;
 }
+
 /*Global attributes for all the p tags on the webpage*/
 p {
-    text-align: center;
+  text-align: center;
 }
+
 /*Attributes for the span .blue-text of the first main section*/
 .blue-text {
-    color: #034687;
+  color: #034687;
 }
+
 /*Attributes for the progress bars*/
 .progress {
-    width: 750px;
-    margin-left: 25%;
-    margin-top: 50px;
+  width: 750px;
+  margin-left: 25%;
+  margin-top: 50px;
 }
 
 .about-section {
-    border-bottom: solid #034687 5px;
+  border-bottom: solid #034687 5px;
 }
+
 /*Design attributes for the main 2 section*/
 .portfolio-section {
-    background-color: #151B25;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: solid #034687 5px;
+  background-color: #151b25;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid #034687 5px;
 }
+
 /*Design attributes for all the divs inside the main 2 section*/
 .trade-analyst {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.password-generator {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.readme-generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.weather-dashboard {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.employee-traker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
+
 /*Design attributes for the images inside the divs in the main section 2*/
-.trading-img {
-    width: 500px;
-    border-radius: 10%;
+.portfolio-img {
+  width: 500px;
+  border-radius: 10%;
 }
 
-.trading-img:hover {
-    border: solid transparent;
+.portfolio-img:hover {
+  border: solid transparent;
 }
 
-
-.pg-img {
-    width: 500px;
-    border-radius: 10%;
-}
-
-.pg-img:hover {
-    border: solid transparent;
-}
-
-.weather-img {
-    width: 500px;
-    border-radius: 10%;
-}
-
-.weather-img:hover {
-    border: solid transparent;
-}
 /*Global attributes for all the h3 tags*/
 h3 {
-    color: #034687;
+  color: #034687;
 }
+
 /*Design attributes for the p tags on the main section 2*/
 .text-line {
-    width: 450px;
-    color: #DBE8E1;
+  width: 450px;
+  color: #dbe8e1;
 }
+
 /*Design attributes for the contact form*/
 footer ul li {
-    color: #DBE8E1;
-    margin-right: 25px;
+  color: #dbe8e1;
+  margin-right: 25px;
 }
 
 footer ul li:hover {
-    color: #E10032;
+  color: #e10032;
 }
+
 /*Make it resposive for movile devices*/
 @media screen and (max-width: 420px) {
-  .button.large {
-    display: inline-block;
-    width: 25%;
-    align-items: center;
+  h1 {
+    font-size: medium;
   }
+
+  button {
+      width: 300px;
+  }
+
   nav {
     font-size: 60%;
+  }
+
+  h2 {
+    margin-left: 38%;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: smaller;
+    width: 50%;
+    margin-left: 25%;
   }
 
   .picture {
     display: inline-block;
     width: 25%;
-    align-items: center;    
+    align-items: center;
   }
+
   .progress {
     display: inline-block;
     width: 50%;
     align-items: center;
   }
-  .text-line {
-    display: inline-block;
-    width: 60%;
-    align-items: center;
-  }
-  footer {
-    font-size: 45%; 
-  }
-  footer ul li {
-      margin-right: 10px;
+
+  .progress-meter-text {
+      font-size: 10px;
   }
 
+  h3 {
+      font-size: medium;
+  }
+
+  .portfolio-img {
+      width: 65%;
+      margin-left: 17.5%;
+  }
+
+  .text-line {
+    font-size: smaller;
+    width: 50%;
+    margin-left: 0%;
+  }
+
+  footer {
+      display: inline-block;
+    font-size: 5px;
+  }
+
+  footer ul li {
+    font-size: 10px;
+    display: inline-table;
+    margin-left: 100px;
+  }
+
+  .contact {
+      margin-left: 31%;
+  }
 }
 
+/*Make it resposive for larger screens*/
+@media screen and (max-width: 1880px) {
+  .button {
+    display: inline-block;
+    margin-left: 42.5%;
+    align-items: center;
+  }
 
+  .picture {
+    display: inline-block;
+    align-items: center;
+    margin-left: 38%;
+    margin-bottom: 25px;
+  }
 
+  .progress {
+    display: inline-block;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+  }
 
+  .text-line {
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+  }
 
-
-
-
+  footer ul li {
+    margin-right: 10px;
+  }
+}
