@@ -18,6 +18,8 @@ header {
 
 /*Design attributes for the button on the header section*/
 .button {
+  position: relative;
+  right: 10%;
   margin-top: 40px;
   margin-left: 10%;
   border-radius: 10px;
@@ -64,6 +66,8 @@ a:hover {
 
 /*Style attributes for my picture*/
 img.picture {
+  position: relative;
+  right: 3.5%;
   width: 250px;
   margin-top: 50px;
   margin-left: 40%;
@@ -147,7 +151,7 @@ h3 {
 /*Design attributes for the p tags on the main section 2*/
 p.text-line {
   color: #dbe8e1;
-  width: 500px;
+  width: 5000px;
 }
 
 /*Design attributes for the contact form*/
@@ -167,10 +171,9 @@ footer ul li:hover {
     font-size: medium;
   }
 
- 
   .button {
     position: relative;
-    right: 60px;
+    right: 70px;
     width: 100px;
     margin-left: 10px;
   }
@@ -249,7 +252,7 @@ footer ul li:hover {
     align-items: center;
   }
 
-  .picture {
+  img.picture {
     display: inline-block;
     align-items: center;
     margin-left: 42.5%;
@@ -263,7 +266,7 @@ footer ul li:hover {
     width: 50%;
   }
 
-  .text-line {
+  p.text-line {
     display: inline-block;
     width: 50%;
     align-items: center;
