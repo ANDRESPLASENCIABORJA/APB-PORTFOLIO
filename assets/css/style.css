@@ -6,20 +6,20 @@ header {
 /*Design for the headers of the header section*/
 .text-centered-one {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 120px;
   color: #dbe8e1;
 }
 
 .text-centered {
   text-align: center;
   color: #dbe8e1;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 /*Design attributes for the button on the header section*/
 .button {
-  margin-top: 50px;
-  margin-left: 40%;
+  margin-top: 40px;
+  margin-left: 10%;
   border-radius: 10px;
   background-color: #034687;
 }
@@ -63,16 +63,16 @@ a:hover {
 }
 
 /*Style attributes for my picture*/
-.picture {
+img.picture {
   width: 250px;
-  margin-left: 40%;
   margin-top: 50px;
+  margin-left: 40%;
   border-radius: 50%;
 }
 
 /*Attributes for the h2*/
 h2 {
-  margin-left: 42.5%;
+  margin-left: 38.5%;
   color: #034687;
 }
 
@@ -145,15 +145,16 @@ h3 {
 }
 
 /*Design attributes for the p tags on the main section 2*/
-.text-line {
-  width: 450px;
+p.text-line {
   color: #dbe8e1;
+  width: 500px;
 }
 
 /*Design attributes for the contact form*/
 footer ul li {
   color: #dbe8e1;
-  margin-right: 25px;
+  margin-left: 5px;
+  font-size: 10px;
 }
 
 footer ul li:hover {
@@ -167,7 +168,7 @@ footer ul li:hover {
   }
 
   button {
-      width: 300px;
+    width: 300px;
   }
 
   nav {
@@ -200,16 +201,16 @@ footer ul li:hover {
   }
 
   .progress-meter-text {
-      font-size: 10px;
+    font-size: 10px;
   }
 
   h3 {
-      font-size: medium;
+    font-size: medium;
   }
 
   .portfolio-img {
-      width: 65%;
-      margin-left: 17.5%;
+    width: 65%;
+    margin-left: 17.5%;
   }
 
   .text-line {
@@ -219,7 +220,7 @@ footer ul li:hover {
   }
 
   footer {
-      display: inline-block;
+    display: inline-block;
     font-size: 5px;
   }
 
@@ -231,7 +232,7 @@ footer ul li:hover {
   }
 
   .contact {
-      margin-left: 31%;
+    margin-left: 31%;
   }
 }
 
