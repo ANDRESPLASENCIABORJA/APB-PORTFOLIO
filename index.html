@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APB PORTFOLIO</title>
     <!--RESET CSS LINK-->
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <!--FOUNDATION STYLE API LINK-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
-        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous" />
     <!--COMPRESSED CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!--GOOGLE FONTS STYLE LINK-->
@@ -23,12 +23,16 @@
     <!--1 header with presentation and navbar-->
     <header>
         <!--Headers for quick presentation of who am I-->
-        <h1 class="text-centered-one">Hello,<span> I am Andrés Plasencia Borja</span>.</h1>
-        <h1 class="text-centered">I am a <span> full-stack web developer</span> and a <span>FX trader</span>.</h1>
+        <h1 class="text-centered-one">
+            Hello,<span> I am Andrés Plasencia Borja</span>.
+        </h1>
+        <h1 class="text-centered">
+            I am a <span> Full-Stack Web Developer</span>. 
+        </h1>
         <!--Button that says to the user that my work is below on the page and that when is hover over is dinamic-->
-        <a class="button large" href="#">Take a look at my work ⤵ </a>
+        <a class="button large" href="#header-navbar">Take a look at my work ⤵ </a>
         <!--Navbar-->
-        <nav>
+        <nav id="header-navbar">
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -42,15 +46,23 @@
     <main>
         <!--Left screen section-->
         <section class="about-section" id="about">
-            <img class="picture" src="./assets/images/APB-IMAGE.jpeg" alt="photograph">
+            <img class="picture" src="./assets/images/APB-IMAGE.jpeg" alt="photograph" />
             <!--Descriptive headers-->
             <h2>Who am I?</h2>
             <!--Descriptive paragraphs-->
-            <p>I am a Front-End Developer from the <span class="blue-text">Tecnológico de Monterrey</span> in Mexico
-                City.</p>
-            <p>I have a great passion for javascript, css, and html, also for the financial markets and all the
-                algorithms that they involve to make inverstors life easier.</p>
-            <p><span class="blue-text">Let's build something great together!</span> </p>
+            <p>
+                I am a Front-End Developer from the
+                <span class="blue-text">Tecnológico de Monterrey</span> in Mexico
+                City.
+            </p>
+            <p>
+                I have a great passion for front end and back end web development,
+                also for the financial markets and all the algorithms that they
+                involve to make inverstors life easier.
+            </p>
+            <p>
+                <span class="blue-text">Let's build something great together!</span>
+            </p>
             <!--Progress bars with percentages of css, html, and javascript-->
             <div class="progress" role="progressbar" tabindex="0" aria-valuenow="80" aria-valuemin="0"
                 aria-valuetext="80 percent" aria-valuemax="100">
@@ -66,8 +78,8 @@
             </div>
             <div class="progress" role="progressbar" tabindex="0" aria-valuenow="70" aria-valuemin="0"
                 aria-valuetext="70 percent" aria-valuemax="100">
-                <span class="progress-meter" style="width: 70%">
-                    <span class="progress-meter-text">JAVASCRIPT 70%</span>
+                <span class="progress-meter" style="width: 80%">
+                    <span class="progress-meter-text">JAVASCRIPT 80%</span>
                 </span>
             </div>
         </section>
@@ -77,51 +89,83 @@
             <div class="trade-analyst">
                 <h3>USD/MXN TRADE ANALYST</h3>
                 <a title="Trade Analyst App" href="https://danrub98.github.io/BM-Trade-Analysis/">
-                    <img class="trading-img" src="./assets/images/exchange.jpg" alt="trading.img">
+                    <img class="trading-img" src="./assets/images/exchange.jpg" alt="trading.img" />
                 </a>
-                <p class="text-line">On this <span>Collaborative Projet</span> we build a friendly user app with
-                    <span>JAVASCRIPT, SERVER APIS, LOCALE STORAGE AND CSS</span>, for every person that wants to know
-                    the actual and search for <span> Historical Exchange Rates, Future News and Live charts</span> for
-                    the <span> USD/MXN</span>. </p>
+                <p class="text-line">
+                    On this <span>Collaborative Projet</span> we build a friendly user
+                    app with
+                    <span>JAVASCRIPT, SERVER APIS, LOCALE STORAGE AND CSS</span>, for
+                    every person that wants to know the actual and search for
+                    <span> Historical Exchange Rates, Future News and Live charts</span>
+                    for the <span> USD/MXN</span>.
+                </p>
             </div>
             <!--Second div for the project trade analyst image with a link description and title-->
             <div class="password-generator">
-                <h3>PASSWORD GENERATOR</h3>
-                <a title="Password App" href="https://andresplasenciaborja.github.io/Password-Generator/">
-                    <img class="pg-img" src="./assets/images/password.jpg" alt="password.img">
+                <h3>README GENERATOR</h3>
+                <a title="Password App" href="https://drive.google.com/file/d/1Q46FNwmqgzT7bbzhpzx8XBljBOsGKmeA/view">
+                    <img class="pg-img" src="./assets/images/readme.jpg" alt="password.img" />
                 </a>
-                <p class="text-line">If you are an owner of a company or a user that cares about secureness on passwords
-                    this <span>Webpage</span> is perfect for you. With the usage of <span>JAVASCRIPT</span> we can get a
-                    <span>Random Secure Password</span> for every user</p>
+                <p class="text-line">
+                    If you are a web developer too, then this
+                    <span> Back End Application </span> is perfect for you. With the
+                    usage of
+                    <span>JAVASCRIPT, NODE.js, AND INQUIRER </span> the
+                    user can generate a <span>Professional README.md file. </span> Click
+                    on the image to see how it works!
+                </p>
             </div>
             <!--Third div for the project weather dashboard image with a link description and title-->
             <div class="weather-dashboard">
-                <h3>WEATHER DASHBOARD</h3>
+                <h3>EMPLOYEE TRAKER</h3>
                 <a title="Weather Dashboard App" href="https://andresplasenciaborja.github.io/Weather-Dashboard/">
-                    <img class="weather-img" src="./assets/images/weather.jpg" alt="weather.img">
+                    <img class="weather-img" src="./assets/images/Employee.jpg" alt="weather.img" />
                 </a>
-                <p class="text-line">If you are going to take a walk or make an activity outside you showld take a look
-                    at the <span>Weather Dashboard</span>, that with the usage of <span>SERVER SIDE APIS, CSS AND
-                        JAVASCRIPT</span>provides the user the weather information of multiple cities.</p>
+                <p class="text-line">
+                    So usefull
+                    <span> Back End Application For company Owners. </span> With the
+                    usage of
+                    <span>JAVASCRIPT, NODE.js, NPM PACKAGES, MYSQL AND INQUIRER </span>
+                    the user can generate, administrate and track
+                    <span>Their Company Employees by generating new roles for them, adding
+                        new employees and more things!
+                    </span>
+                    Click on the image to watch the functionallity!
+                </p>
             </div>
         </section>
-
     </main>
 
     <footer>
         <section id="contact">
             <ul>
-                <li><a title="Linkedin" href="https://github.com/ANDRESPLASENCIABORJA">GITHUB</a></li>
-                <li><a title="Linkedin"
-                        href="https://www.linkedin.com/in/andr%C3%A9s-plasencia-borja-120a35ba/">LINKEDIN</a> </li>
+                <li>
+                    <a title="Linkedin" href="https://github.com/ANDRESPLASENCIABORJA">GITHUB</a>
+                </li>
+                <li>
+                    <a title="Linkedin"
+                        href="https://www.linkedin.com/in/andr%C3%A9s-plasencia-borja-120a35ba/">LINKEDIN</a>
+                </li>
                 <li>PHONE: 55-6970-6164</li>
                 <li>EMAIL: borja.basolutions@gmail.com</li>
-                <li><a title="Trade Analysis GITHUB" href="https://github.com/Danrub98/BM-Trade-Analysis">TRADE ANALYSIS
-                        REPO</a></li>
+                <li>
+                    <a title="Trade Analysis GITHUB" href="https://github.com/Danrub98/BM-Trade-Analysis">TRADE ANALYSIS
+                        REPO</a>
+                </li>
+                <li>
+                    <a title="README GENERATOR" href="https://github.com/ANDRESPLASENCIABORJA/README-Generator">README GENERATOR
+                        REPO</a>
+                </li>
+                <li>
+                    <a title="EMPLOYEE TRAKER" href="https://github.com/ANDRESPLASENCIABORJA/Employee-Traker">EMPLOYEE TRAKER
+                        REPO</a>
+                </li>
+                <li>
+                    <a title="RESUME" href="https://github.com/Danrub98/BM-Trade-Analysis">MY RESUME</a>
+                </li>
             </ul>
         </section>
     </footer>
-
 </body>
 
 </html>
