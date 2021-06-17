@@ -8,18 +8,56 @@ header {
   text-align: center;
   padding-top: 120px;
   color: #dbe8e1;
+  /* animation-name: example;
+  animation-duration: 4s; */
 }
+
+/* Animation of the class .text-centered-one 
+@keyframes example {
+  from {
+    color: transparent;
+  }
+  to {
+    color: #dbe8e1;
+  }
+}
+*/
+
+.h1 {
+  color: #e10032;
+  /* animation-name: example;
+  animation-duration: 4s; */
+}
+
+/* @keyframes span {
+  from {
+    color: transparent;
+  }
+  to {
+    color: #e10032;
+  }
+} */
 
 .text-centered {
   text-align: center;
   color: #dbe8e1;
   margin-bottom: 45px;
+  /* animation-name: example;
+  animation-duration: 4s; */
 }
+
+/* Animation of the class .text-centered-one */
+/* @keyframes example {
+  from {
+    color: transparent;
+  }
+  to {
+    color: #dbe8e1;
+  }
+} */
 
 /*Design attributes for the button on the header section*/
 .button {
-  position: relative;
-  right: 10%;
   margin-top: 40px;
   margin-left: 10%;
   border-radius: 10px;
@@ -67,7 +105,6 @@ a:hover {
 /*Style attributes for my picture*/
 img.picture {
   position: relative;
-  right: 3.5%;
   width: 250px;
   margin-top: 50px;
   margin-left: 40%;
@@ -76,13 +113,16 @@ img.picture {
 
 /*Attributes for the h2*/
 h2 {
-  margin-left: 38.5%;
+  margin-left: 42%;
   color: #034687;
 }
 
 /*Global attributes for all the p tags on the webpage*/
-p {
+main p {
   text-align: center;
+  width: 1000px;
+  margin-top: 1.5%;
+  margin-left: 20%;
 }
 
 /*Attributes for the span .blue-text of the first main section*/
@@ -149,9 +189,10 @@ h3 {
 }
 
 /*Design attributes for the p tags on the main section 2*/
-p.text-line {
+main section p.text-line {
   color: #dbe8e1;
-  width: 5000px;
+  width: 500px;
+  margin-left: 0px;
 }
 
 /*Design attributes for the contact form*/
